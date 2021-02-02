@@ -60,13 +60,12 @@
             <version>8.0.15</version>
         </dependency>
 
-<!--        &lt;!&ndash;springfox swagger官方Starter&ndash;&gt;-->
+        <!--springfox swagger官方Starter 新版本有点坑-->
 <!--        <dependency>-->
 <!--            <groupId>io.springfox</groupId>-->
 <!--            <artifactId>springfox-boot-starter</artifactId>-->
 <!--            <version>3.0.0</version>-->
 <!--        </dependency>-->
-        <!--Swagger-UI API文档生产工具-->
 
         <dependency>
             <groupId>io.springfox</groupId>
