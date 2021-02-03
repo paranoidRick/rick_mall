@@ -27,6 +27,7 @@ public class Swagger2Config {
 //                .apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
                 //为有@ApiOperation注解的方法生成API文档
 //                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
+                // 过滤
                 .paths(PathSelectors.any())
                 .build();
     }
